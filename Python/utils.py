@@ -110,3 +110,13 @@ def get_blanks(matrix):
             if row[j] == '-':
                 blank.append([i, j])
     return blank
+
+
+def print_matrix(matrix):
+    """Print the matrix in a tabular format"""
+    n = len(matrix)
+    print("-" * 7 * n + "-")
+    for r in range(n):
+        print("|" + ("  {:<4}|" * n).format(*matrix[r]))
+        print("-" * 7 * n + "-")
+
