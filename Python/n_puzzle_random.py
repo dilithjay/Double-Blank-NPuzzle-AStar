@@ -28,6 +28,8 @@ for _ in range(100):
     print("Misplaced iterations:", a_star_misplaced.iter_count)
     print("Manhattan iterations:", a_star_manhattan.iter_count)
 
+    print()
+
     difference = a_star_misplaced.iter_count - a_star_manhattan.iter_count
     dif_tot += difference
     dif_sq_tot += difference * difference

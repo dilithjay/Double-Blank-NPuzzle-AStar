@@ -13,6 +13,7 @@ print("Steps:", a_star.search())
 print("Time:", a_star.time)
 print("Checked Node count:", a_star.iter_count)
 
+input("\nPress Enter to quit...")
 
 """
 # Uncomment to define  inputs manually.
